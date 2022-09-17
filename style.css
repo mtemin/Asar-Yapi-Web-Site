@@ -1,0 +1,313 @@
+/***  HEADER  ***/
+
+* {
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: local;
+    overflow: auto;
+    background-color: rgba(49, 110, 181, .2);
+    
+}
+
+.header {
+    position: fixed;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: inherit;
+    height: 72px;
+    width: 100%;
+    top:0;
+    background-color: rgba(245, 245, 245, .9);
+    border-bottom: 5px solid #209cd8;
+    letter-spacing: 2px;
+    margin: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    z-index: 99999;
+}
+
+.header img {
+    margin: auto;
+}
+
+.headerbaslik {
+    border-spacing: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.header .menu {
+    color: white;
+    /** 
+    border-bottom:3px solid #209cd8;
+    border-top:3px solid #209cd8;
+    **/
+    / margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    -webkit-box-sizing: border-box;
+    height: 100%;
+    width: 1%
+}
+
+.header .menu:hover {
+    background-color: #209cd8;
+    transition: .7s ease;
+}
+
+.headerbaslik .telefon {
+    text-align: right;
+    max-width: 100%;
+    margin-right: 20px;
+}
+.telefon-cell{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+.header td a {
+    color: black;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration-color: #209cd8;
+    padding: 0 20px;
+    height: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+
+
+}
+
+
+.header img {
+
+    padding: 5px;
+
+}
+
+
+
+
+/***  CONTAINER  ***/
+
+.container {
+    margin: auto;
+    padding: 5%;
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+    
+}
+
+.anasayfa-table{
+    margin: auto;
+}
+.anasayfa-table td{
+    text-align: center;
+}
+
+#anasayfaslogan h1{
+    color: black;
+}
+
+
+#anasayfa tr:hover h1{
+    letter-spacing: 15px;
+    transition: .4s ease;
+    
+    
+}
+
+#anasayfa tr:hover p{
+    letter-spacing: 6px;
+    transition: .4s ease;
+
+}
+
+
+.container tr td h1 {
+    color: antiquewhite;
+    font-size: 75px;
+    letter-spacing: 7px;
+}
+
+.container tr td p {
+    color: rgb(32,32,32);
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
+#hizmetlerbaslik{
+    font-size: 20px;
+    text-align: center;
+    font-weight:400;
+    background-color: #96B9DF;
+    padding: 5px;
+}
+
+
+.container .tablohizmet {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: space-between center;
+    align-items: center;
+    overflow: visible;
+    height: 100%;
+}
+
+.tablohizmet .hizmetler{
+    border-bottom: 4px solid #96B9DF;
+    margin: 15px;
+}
+
+.tablohizmet .betulhanim{
+    border-bottom: 4px solid #C296DF; 
+}
+
+.tablohizmet .miralay{
+    border-bottom: 4px solid #97DF96;
+}
+
+.tablohizmet .hizmetler img{
+    border-radius: 5px;
+    margin: 10px;
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tablohizmet .hizmetler:hover{
+    transition: .4s all ease-in-out;
+    object-position: top;
+    transform: scale(1.5);
+    object-fit:fill;
+    transform: translate(0,90px) scale(1.5);
+    -webkit-transform: translate(0px,90px)  scale(1.5);
+    -moz-transform: translate(0px,90px)  scale(1.5);
+    -o-transform: translate(0px,90px)  scale(1.5);
+    -ms-transform: translate(0px,90px)  scale(1.5);
+    background-color: rgba(245, 245, 245, .9);
+    border-radius: 5px;
+    object-position: center;
+    object-fit:contain;
+}
+
+.tablohizmet .aciklama{
+    font-size: 16px;
+    margin: 10px 10px;
+    
+}
+
+
+.hakkimizda {
+    text-align: center;
+    vertical-align:middle;
+    
+}
+
+.hakkimizda h1,
+h2,
+h3 {
+    text-align: center;
+    color: #02227E;
+}
+
+.seffafarkaplan {
+    height: inherit;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    vertical-align: middle;
+    Z-index: -1;
+    height: 100%;
+    top: 0;
+}
+
+.hakkimizda h4, h5{
+    font-weight: 600;
+    margin: auto;
+    color: darkblue;
+    text-align: center;
+    list-style-type: none;
+}
+
+.hakkimizda ul li{
+    list-style-type: none;
+}
+
+.hakkimizda ul li img{
+    width: 24px;
+    margin-right: 10px;
+}
+
+.iletisim-cell {
+    display: flex;
+    align-content: space-between;
+    vertical-align: text-top;
+    flex-flow: column;
+    margin: 0px;
+}
+
+.iletisim-cell {
+    display: flex;
+    align-content: space-around;
+    flex-flow: column;
+}
+
+.iletisim-cell {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0px;
+}
+
+
+.iletisim {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    flex-flow: row;
+}
+
+}
+
+.iletisim table {
+    font-size: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+
+.telefon> .ikon{
+    display: inline-block;
+
+    width: 25px; 
+    align-self: center;
+}
