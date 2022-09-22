@@ -6,13 +6,10 @@
 !.vscode/extensions.json
 
 #Resim
-*.img
-*.jpg
-*.png
+
 
 #Rar
-*.zip
+
 
 #Klasor
 font-awesome-4.7.0/
-resim/
