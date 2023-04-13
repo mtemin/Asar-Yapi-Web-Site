@@ -3,5 +3,3 @@ HTML ve CSS Flexbox kullanarak yaptığım telefon veya tablette de ekrana uyum 
 
 Responsive website i made with HTML and CSS Flexbox.
 
-## 2.Web Projem
-
