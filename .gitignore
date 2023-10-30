@@ -15,5 +15,5 @@
 *.zip
 
 #Klasor
-/resim
-/font-awesome-4.7.0
+resim/
+font-awesome-4.7.0/
